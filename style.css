@@ -1,13 +1,18 @@
+body {
+  margin: 0;
+}
+
 .hero {
-  background-image: src("./hero-mobile.jpeg");
+  background-image: url("../images/hero-mobile.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
+  height: 100vh;
 }
 
 @media only screen and (min-width: 992px) {
   .hero {
-    background-image: src("./hero-desktop.jpeg");
+    background-image: url("../images/hero-desktop.jpg");
   }
 }
